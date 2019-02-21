@@ -1,4 +1,4 @@
-Kata Cuestionarix
+Kata template
 ===================
 
 General installation instructions:
