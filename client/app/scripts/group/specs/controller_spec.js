@@ -16,6 +16,14 @@ describe('Controller: select group', function () {
     it('should set "controller_loaded" variable in scope', function () {
       expect(scope.controller_loaded).toContain('loaded');
     });
+    
+    it('should return case 1', function () {
+      
+    });
+    
+    it('should return case 2', function () {
+      
+    });
   });
 
   describe('when going to /group', function () {
