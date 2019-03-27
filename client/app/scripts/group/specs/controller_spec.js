@@ -17,8 +17,10 @@ describe('Controller: select group', function () {
       expect(scope.controller_loaded).toContain('loaded');
     });
     
-    it('should return case 1', function () {
-      
+    fit('should return case 1', function () {
+      var result = scope.registro([1009 ,1017],[2011,2011]);
+
+      expect(result).toEqual([2011]);
     });
     
     it('should return case 2', function () {
